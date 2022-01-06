@@ -1,2 +1,1 @@
-phrase = "Giraffe Academy"
-print (phrase.replace("Giraffe" , "Elephant"))
+print (2)
