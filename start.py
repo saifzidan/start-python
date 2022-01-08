@@ -1,2 +1,3 @@
-coordinates = (4 , 5)
-print (coordinates[1])
+def sayhi () :
+    print ("Hello User")
+sayhi ()
