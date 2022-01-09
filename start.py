@@ -1,13 +1,14 @@
-num1 = float (input ("Enter the first number"))
-num2 = float (input ("Enter the second number"))
-op = input ("Enter the operator number")
-if op == "+" :
-    print (num1 + num2)
-elif op == "-" :
-    print (num1 - num2)
-elif op == "*" :
-    print (num1 * num2)
-elif op == "/" :
-    print (num1 / num2)
-else :
-    print ("Invalid operator")
+month = {
+"jan" : "january" ,
+"feb" : "febraury" ,
+"mar" : "march" ,
+"apr" : "april" ,
+"jun" : "june" ,
+"jul" : "july" ,
+"aug" : "august" ,
+"sep" : "september" ,
+"oct" : "october" ,
+"nov" : "november" ,
+"dec" : "december"
+}
+print (month.get ("jan" , "not found"))
